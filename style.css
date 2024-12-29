@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #history {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .list-group-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+  }
+  
+  .list-group-item:nth-child(odd) {
+    background-color: #f7f7f7;
+  }
+  
